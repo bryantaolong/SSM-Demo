@@ -13,7 +13,12 @@
 <body>
 <h3>
     <a href="${pageContext.request.contextPath}/book/allBook">点击进入列表页</a>
-    <a href=""
+
+    <form action="file/upload" enctype="multipart/form-data" method="post">
+        <input type="file" name="file"/>
+        <input type="submit" value="upload">
+    </form>
+    <a href="file/download">点击下载</a>
 </h3>
 </body>
 </html>
