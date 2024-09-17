@@ -1,4 +1,4 @@
-package com.kuang.pojo;
+package com.bryan.pojo;
 
 public class Books {
 

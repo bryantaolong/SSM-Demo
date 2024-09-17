@@ -6,8 +6,8 @@
 </head>
 <body>
 
-<h3>
-    <a href="${pageContext.request.contextPath}/book/allBook">点击进入列表页</a>
-</h3>
+    <a href="user/login">log in</a><br>
+    <a href="user/home">home</a>
+
 </body>
 </html>

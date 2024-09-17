@@ -1,6 +1,6 @@
-package com.kuang.dao;
+package com.bryan.dao;
 
-import com.kuang.pojo.Books;
+import com.bryan.pojo.Books;
 import java.util.List;
 
 public interface BookMapper {

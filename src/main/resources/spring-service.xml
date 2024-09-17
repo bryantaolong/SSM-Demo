@@ -8,10 +8,10 @@
    http://www.springframework.org/schema/context/spring-context.xsd">
 
     <!-- 扫描service相关的bean -->
-    <context:component-scan base-package="com.kuang.service" />
+    <context:component-scan base-package="com.bryan.service" />
 
     <!--BookServiceImpl注入到IOC容器中-->
-    <bean id="BookServiceImpl" class="com.kuang.service.BookServiceImpl">
+    <bean id="BookServiceImpl" class="com.bryan.service.BookServiceImpl">
         <property name="bookMapper" ref="bookMapper"/>
     </bean>
 

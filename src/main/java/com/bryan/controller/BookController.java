@@ -1,7 +1,7 @@
-package com.kuang.controller;
+package com.bryan.controller;
 
-import com.kuang.pojo.Books;
-import com.kuang.service.BookService;
+import com.bryan.pojo.Books;
+import com.bryan.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;

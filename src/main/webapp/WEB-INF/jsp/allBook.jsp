@@ -2,19 +2,18 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>书籍列表</title>
+    <title>book list</title>
 </head>
-<body>>
+<body>
 <div class="row clearfix">
     <div class="col-md-12 column">
         <table class="table table-hover table-striped">
             <thead>
             <tr>
-                <th>书籍编号</th>
-                <th>书籍名字</th>
-                <th>书籍数量</th>
-                <th>书籍详情</th>
-                <th>操作</th>
+                <th>book id</th>
+                <th>book name</th>
+                <th>stock number</th>
+                <th>detail</th>
             </tr>
             </thead>
 

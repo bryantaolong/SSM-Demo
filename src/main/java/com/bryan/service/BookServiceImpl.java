@@ -1,7 +1,7 @@
-package com.kuang.service;
+package com.bryan.service;
 
-import com.kuang.dao.BookMapper;
-import com.kuang.pojo.Books;
+import com.bryan.dao.BookMapper;
+import com.bryan.pojo.Books;
 import java.util.List;
 
 public class BookServiceImpl implements BookService {
